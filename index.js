@@ -43,3 +43,5 @@ usuario.addBook('Las aventuras de Tom Sawyer', 'Mark Twain');
 usuario.addBook('El necronomicon', 'Lovercraft');
 
 console.log(usuario.getBookNames());
+
+console.log(usuario);
