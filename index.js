@@ -28,9 +28,18 @@ class Usuario {
 }
 
 const usuario = new Usuario('Facundo', 'Ezequiel', {nombre: 'El señor de los anillos', autor: 'Tolkien'}, 'Garfield');
-usuario.getFullName();
+
+console.log(usuario);
+
+console.log(usuario.getFullName());
+
+console.log(usuario.countMascotas());
+
 usuario.addMascota('Firu');
-usuario.countMascotas();
+
+console.log(usuario.countMascotas());
+
 usuario.addBook('Las aventuras de Tom Sawyer', 'Mark Twain');
 usuario.addBook('El necronomicon', 'Lovercraft');
-usuario.getBookNames();
+
+console.log(usuario.getBookNames());
